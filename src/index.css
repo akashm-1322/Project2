@@ -1,0 +1,56 @@
+.card-places{
+    width: 1000px;
+    height:500px;
+}
+.card--location-url:hover{
+ color:yellowgreen;
+}
+.card--location-url:active{
+    color:rgba(100,80,60,0.8);
+   }
+.card--location-url:before{
+    color:rgba(200,40,100,0.8);
+   }
+.card-component{
+    display:flex;
+    flex-direction:column;
+    padding: 100px 100px;
+    width: 1000px;
+    float: center;
+    border: 5px solid black;
+    background-image:repeating-linear-gradient(red,pink,yellow,blue,green,lightblue)
+}
+
+
+
+
+.travel-image{
+    float:left;
+    width:50px;
+    height:50px;
+    padding: 20px 20px;
+}
+
+.nav-title{
+    text-align: center;
+    font-weight:50px;
+    padding: 25px 20px;
+    background-color: rgb(201, 127, 30);
+    box-shadow: 5px 5px 5px 5px lightblue;
+}
+
+body{
+    width:1200px;
+    height:1200px;
+}
+
+.foot{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.navigation{
+    box-shadow: 10px;
+    display: contents;
+    border-radius: 30%;
+    
+}
